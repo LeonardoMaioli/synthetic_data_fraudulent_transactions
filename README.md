@@ -15,15 +15,15 @@ Alunos:
 
 ## _Introdução_
 
-_*Dados sintéticos*_ são dados gerados artificialmente e que imitam as propriedades estatísticas e as características de dados reais. Esses dados podem ser gerados por meio de IA generativa e são empregados em diversos setores e indústrias, com destaque para cenários onde a obtenção de dados reais é limitada por questões de privacidade, custo ou acessibilidade.
+**Dados sintéticos** são dados gerados artificialmente e que imitam as propriedades estatísticas e as características de dados reais. Esses dados podem ser gerados por meio de IA generativa e são empregados em diversos setores e indústrias, com destaque para cenários onde a obtenção de dados reais é limitada por questões de privacidade, custo ou acessibilidade.
 
-Nesse trabalho da disciplina _*Processamento de Linguagem Natural*_ da UFABC, o grupo realizou o estudo do artigo _*Synthetic Data using LangChain and OpenAI: The Ingenious Shortcut to Data Science’s Success*_ disponível gratuitamente [aqui](https://medium.com/@viritaromero/synthetic-data-using-langchain-and-openai-the-ingenious-shortcut-to-data-sciences-success-7dbccfdd3a5e). Ao longo do artigo, a autora utiliza um exemplo real para demonstrar a importância dos dados sintéticos. Nesse exemplo, ela utiliza o framework LangChain e um modelo da OpenAI para gerar dados sintéticos que incluem detalhes típicos de transações de e-commerce fraudulentas, como grandes valores de transação ou endereços IP suspeitos. Esse conjunto de dados gerados pode ser valioso visto que pode ser empregado no desenvolvimento e teste de modelos de machine learning para detecção de fraudes em transações de e-commerce.
+Nesse trabalho da disciplina **Processamento de Linguagem Natural** da UFABC, o grupo realizou o estudo do artigo **Synthetic Data using LangChain and OpenAI: The Ingenious Shortcut to Data Science’s Success** disponível gratuitamente [aqui](https://medium.com/@viritaromero/synthetic-data-using-langchain-and-openai-the-ingenious-shortcut-to-data-sciences-success-7dbccfdd3a5e). Ao longo do artigo, a autora utiliza um exemplo real para demonstrar a importância dos dados sintéticos. Nesse exemplo, ela utiliza o framework LangChain e um modelo da OpenAI para gerar dados sintéticos que incluem detalhes típicos de transações de e-commerce fraudulentas, como grandes valores de transação ou endereços IP suspeitos. Esse conjunto de dados gerados pode ser valioso visto que pode ser empregado no desenvolvimento e teste de modelos de machine learning para detecção de fraudes em transações de e-commerce.
 
 A partir desse artigo, o grupo repetiu o processo exposto pela autora, implementando algumas melhorias e adicionando a etapa de validação dos dados sintéticos gerados.
 
 ## _Tecnologias utilizadas_
 
-Assim como a autora, o grupo utilizou a linguagem _*Python*_ com o framework _*LangChain*_ junto de um modelo da _*OpenAI*_, variando entre os modelos gpt-4o-mini e gpt-4o.
+Assim como a autora, o grupo utilizou a linguagem **Python** com o framework **LangChain** junto de um modelo da **OpenAI**, variando entre os modelos gpt-4o-mini e gpt-4o.
 
 ## _Código_
 
