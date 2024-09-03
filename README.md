@@ -7,28 +7,32 @@ Alunos:
 
 ## _índice_
 
-- <a href="#resumo">Introdução</a>
+- <a href="#intro">Introdução</a>
 - <a href="#tecnologias-utilizadas">Tecnologias utilizadas</a>
 - <a href="#codigo">Código</a>
-- <a href="#resultados">Resultados e possíveis aplicações</a>
+- <a href="#resultados">Resultados</a>
 - <a href="#referencias">Referências</a>
 
 ## _Introdução_
 
-aaa...
+_*Dados sintéticos*_ são dados gerados artificialmente e que imitam as propriedades estatísticas e as características de dados reais. Esses dados podem ser gerados por meio de IA generativa e são empregados em diversos setores e indústrias, com destaque para cenários onde a obtenção de dados reais é limitada por questões de privacidade, custo ou acessibilidade.
+
+Nesse trabalho da disciplina _*Processamento de Linguagem Natural*_ da UFABC, o grupo realizou o estudo do artigo _*Synthetic Data using LangChain and OpenAI: The Ingenious Shortcut to Data Science’s Success*_ disponível gratuitamente [aqui](https://medium.com/@viritaromero/synthetic-data-using-langchain-and-openai-the-ingenious-shortcut-to-data-sciences-success-7dbccfdd3a5e). Ao longo do artigo, a autora utiliza um exemplo real para demonstrar a importância dos dados sintéticos. Nesse exemplo, ela utiliza o framework LangChain e um modelo da OpenAI para gerar dados sintéticos que incluem detalhes típicos de transações de e-commerce fraudulentas, como grandes valores de transação ou endereços IP suspeitos. Esse conjunto de dados gerados pode ser valioso visto que pode ser empregado no desenvolvimento e teste de modelos de machine learning para detecção de fraudes em transações de e-commerce.
+
+A partir desse artigo, o grupo repetiu o processo exposto pela autora, implementando algumas melhorias e adicionando a etapa de validação dos dados sintéticos gerados.
 
 ## _Tecnologias utilizadas_
 
-aaa...
+Assim como a autora, o grupo utilizou a linguagem _*Python*_ com o framework _*LangChain*_ junto de um modelo da _*OpenAI*_, variando entre os modelos gpt-4o-mini e gpt-4o.
 
 ## _Código_
 
-aaa...
+O código desenvolvido e as explicações detalhadas de cada etapa estão disponíveis no formato de um notebook Python [aqui](https://github.com/LeonardoMaioli/synthetic_data_fraudulent_transactions/blob/main/synthetic_data_generation/PLN_synthetic_data.ipynb)!
 
+## _Resultados_
 
-## _Resultados e possíveis aplicações_
-
-aaa...
+Os resultados obtidos podem ser melhor explorados no código citado anteriormente. Na figura abaixo tem-se uma pequena amostra dos dados sintéticos obtidos para transações fraudulentas.
+![Dados Sintéticos para Transações Fraudulentas](images/synthetic_data_example.png)
 
 ## _Referências_
 
